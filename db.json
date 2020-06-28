@@ -1,0 +1,29 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "name": "AFFENPINSCHER",
+      "img": "https://images.dog.ceo/breeds/retriever-golden/n02099601_100.jpg"
+    },
+    {
+      "id": 2,
+      "name": "AKITA",
+      "img": "https://images.dog.ceo/breeds/terrier-wheaten/n02098105_1321.jpg"
+    },
+    {
+      "id": 3,
+      "name": "CHIHUAHUA",
+      "img": "https://images.dog.ceo/breeds/entlebucher/n02108000_2464.jpg"
+    },
+    {
+      "id": 4,
+      "name": "LHASA",
+      "img": "https://images.dog.ceo/breeds/waterdog-spanish/20180723_185559.jpg"
+    },
+    {
+      "id": 5,
+      "name": "MINIATURE SCHNAUZER",
+      "img": "https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg"
+    }
+  ]
+}
