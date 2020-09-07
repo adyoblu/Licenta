@@ -18,7 +18,8 @@
     "gulp-file-include": "^2.2.2"
   },
   "scripts": {
-    ".": "json-server --watch db.json"
+    ".": "json-server --watch db.json",
+    "postinstall": "ng build"
   },
   "author": "Oblu Ionut Adrian",
   "license": "ISC"
