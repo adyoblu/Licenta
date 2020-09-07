@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Shome</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../public/imagini/avatar.ico"/>
+
+  </head>
+
+  <body onload ="render();">
+    
+    <!-- start #header -->
+    <header id="header">
+      <nav id="showMe" class="navbar navbar-expand-md navbar-dark fixed-top text-dark" style="background-color: black !important;">
+      <div id="container">  
+          <div id="wrapper">
+              <div id="unu">
+                  
+                  <div class="inner-div">
+                      <a href="index.html" class="text dark-text navbar-brand text-white">
+                      <i class="logo1 fas fa-store-alt"></i> 
+                      Shome Store
+                      </a>
+                  </div>
+                  <!--dropdown menu-->
+                  <div id="produse">
+                      <ul class="using">
+                          <li class="pad"><a href="#" class="nounderline text-white"><span><b>Produse</b></span></a>
+                              <ul>
+                              <div class="sub-wrapper-produse">
+                                  <div class="sub-con">
+                                      <div class="sub-hol">
+                          
+                                          <div class="sub-l">
+                                              <h3>Chiuvete si baterii</h3>
+                                              <ul>
+                                                  <li><a href="#">Izolatii</a></li>
+                                                  <li><a href="#">Chiuvete</a></li>
+                                                  <li><a href="#">Aragaz</a></li>
+                                                  <li><a href="#">Blaturi</a></li>
+                                                  <li><a href="#">Hote de bucatarie</a></li>
+                                                  <li><a href="#">Accesorii</a></li>
+                                              </ul>
+                                          </div>
+                                          
+                                          <div class="sub-m">
+                                              <h3>Totul pentru casa ta</h3>
+                                              <div class="sub-in-l">
+                                              <ul>
+                                                  <li><a href="#">Draperii</a></li>
+                                                  <li><a href="#">Becuri</a></li>
+                                                  <li><a href="#">Ferestre</a></li>
+                                                  <li><a href="#">Prelungitoare</a></li>
+                                                  <li><a href="#">Lanterne</a></li>
+                                                  <li><a href="#">Plafoniere</a></li>
+                                                  <li><a href="#">Spoturi</a></li>
+                                                  <li><a href="#">Iluminare mobila</a></li>
+                                              </ul>
+                                              </div>
+                                              
+                                          <div class="sub-in-l">
+                                              <ul>
+                                                  <li><a href="#">Parchet</a></li>
+                                                  <li><a href="#">Faianta</a></li>
+                                                  <li><a href="#">Gresie</a></li>
+                                                  <li><a href="#">Covoare</a></li>
+                                                  <li><a href="#">Usi interioare</a></li>
+                                                  <li><a href="#">Lemn</a></li>
+                                                  <li><a href="#">Scari</a></li>
+                                                  <li><a href="#">Ciment</a></li>
+                                              </ul>
+                                              </div>
+                                          </div>
+                                          
+                                          <div class="sub-r">
+                                              <h3>Unelte</h3>
+                                              <ul>
+                                                  <li><a href="#">Cuie</a></li>
+                                                  <li><a href="#">Suruburi</a></li>
+                                                  <li><a href="#">Masinarii</a></li>
+                                                  <li><a href="#">Balamale</a></li>
+                                                  <li><a href="#">Lanturi</a></li>
+                                                  <li><a href="#">Panouri</a></li>
+                                              </ul>
+                                          </div>
+                                          
+                                      </div>
+                                  </div>
+                              </div>
+                          </li>	
+                          </ul>	
+                      </ul>
+                  </div>
+                  <!--dropdown menu-->
+                  <div id="blog">
+                      <ul>
+                          <li class="pad">
+                              <a href="blog.html" class="nounderline text-white">
+                                  <span><b>Blog</b></span>
+                              </a>
+                          </li>
+                      <ul>
+                  </div>
+                  <div id="contact">
+                      <ul>
+                          <li class="pad">
+                              <a href="contact.html" class="nounderline text-white">
+                                  <span><b>Contact</b></span>
+                              </a>
+                          </li>
+                      <ul>
+                  </div>
+
+                  <div id="buy" class="float-right">
+                      <ul>
+                           <li class="pad">
+                              <a href="cart.html" class="nounderline text-white">
+                                  <span>
+                                      <i class=" text-warning fas fa-shopping-cart px-1 border-bottom "></i><b>Coș de cumpărături</b>
+                                      <i style="color: lightgreen; font-size: 18px;" id="cart_n"></i>
+                                  </span>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+
+                  <!-- <div id="log" class="float-right">
+                      <ul>
+                          <li class="pad">
+                              <a href="#" data-toggle="modal" data-target="#ModalCenter" class="nav-link nounderline text-dark-75">
+                                  <span>
+                                      <i class="far fa-user"></i><b> Logare</b>
+                                      <i style="color: white;" id="cart_n"></i></span>
+                              </a>
+                          </li>
+                      </ul>
+                  </div> -->
+
+              </div>
+          </div>
+      </div>
+  </nav>
+
+  </header>
+<!-- !start #header -->
+
+    <div class="site-wrap" id="home-section">
+      
+      <div class="hero inner-page" style="background-image: url('imagini/blog.jpg');  background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;">
+        
+        <div class="container">
+          <div class="row align-items-end ">
+            <div class="col-lg-5">
+
+              <div class="intro">
+                <h1><strong>Blog</strong></h1>
+                <div class="custom-breadcrumbs"><a href="index.html" style="float: left;">Acasă</a> <span class="mx-2">/</span> <strong>Blog</strong></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="https://www.leroymerlin.ro/articol/aerul-conditionat-mobil-avantaje-dezavantaje-variante-disponibile/268">
+                <img src="../public/imagini/img1.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents"> 
+                <h2><a href="https://www.leroymerlin.ro/articol/aerul-conditionat-mobil-avantaje-dezavantaje-variante-disponibile/268">Aerul conditionat mobil – avantaje, dezavantaje, variante disponibile</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>In principal, un aparat de aer conditionat mobil il alegi atunci cand vrei mai multa mobilitate si flexibilitate in obtinerea unei temperaturi placute pentru casa ta. Incercam sa enumeram, in acest articol, principalele avantaje ale unui astfel de aparat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="https://www.urbanartconstruct.ro/materiale-de-constructii-rezistente-criterii">
+                <img src="../public/imagini/img2.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="https://www.urbanartconstruct.ro/materiale-de-constructii-rezistente-criterii">Materiale de constructii durabile</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Consideram ca acesta este cel mai important criteriu pentru ca de el depinde si durabilitatea constructiei finale. Aceste tipuri de materiale durabile pot fi putin mai scumpe decat cele standard, insa investitia va fi recuperata in timp. Avantajul materialelor durabile este ca de-a lungul timpului vor fi mai rezistente si nu vor necesita prea multe reparatii. De asemenea, un alt beneficiu este faptul ca vor asigura un cost de intretinere si un consum de energie mult mai mic. Doua dintre cele mai utilizate materiale de constructive rezistente sunt BCA-ul si caramida.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="https://www.urbanartconstruct.ro/firma-amenajari-interioare/">
+                <img src="../public/imagini/img3.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="https://www.urbanartconstruct.ro/firma-amenajari-interioare/">Firma amenajari interioare</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Cand vrei sa-ti reamenajezi locuinta ai nevoie de o echipa profesionista, cu experienta, cu un portofoliu de lucrari in spate. O firma de constructii serioasa, ofera consultanta gratuita pentru proiectul tau de amenajari interioare. Vei afla, prin intermediul consultantilor, toate detaliile in ceea ce priveste amenajarea de care ai nevoie, toti pasii care trebuiesc parcursi, vei primi sfaturi si indrumari care sa te faca sa alegi cel mai potrivit proiect de amenajari interioare, in functie de restul casei tale.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="https://www.urbanartconstruct.ro/instalatii-electrice-case/">
+                <img src="../public/imagini/img4.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="https://www.urbanartconstruct.ro/instalatii-electrice-case/">Instalatii electrice case</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Cand construim o casa de la zero, sau renovam, trebuie sa luam in calcul si instalatiile electrice. Fie ca e vorba de constructie sau de renovare, trebuie asigurat un circuit electric si pentru exteriorul casei, pentru ca vei avea nevoie de lumina si in curte sau in incaperile pe care le folosesti numai ocazional, cum ar fi beciuri, subsoluri sau garaje. O idee pe care vi-o propunem sunt dispozitivele care mentin lumina aprinsa un timp predeterminat, cum ar fi temporizatoarele sau detectoarele de miscare; pentru cand plecati in concedii sau in week-end-uri prelungite, puteti folosi dispozitivele de aprindere si stingere automata a luminii, care sa simuleze prezenta.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="https://www.urbanartconstruct.ro/iluminat-inteligent-de-la-greenlight-concept">
+                <img src="../public/imagini/img5.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="https://www.urbanartconstruct.ro/iluminat-inteligent-de-la-greenlight-concept">Iluminat inteligent de la Greenlight Concept</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>De ce sunt LED-urile inteligente?
+
+Pentru ca au o durata de viata uriasa, de circa 14 de ani la o durata de functionare de 10 ore pe zi.
+
+Pentru ca nu folosesc materiale toxice (vezi mercurul continut de becurile ecologice).
+
+Pentru ca datorita lor si a duratei lor de viata ne scutim de cantitatea uriasa de deseuri.
+
+Pentru ca reduc poluarea.
+
+Pentru ca ajuta la conservarea combustibililor fosili, prin reducerea cu pana la 80% a consumului de energie electrica.
+
+Pentru ca tuburile cu LED nu se sparg, iar din acest punct de vedere consumatorii sunt paziti de incidente.
+
+Pentru ca desi sunt mai scumpe decat becurile obisnuite, pe termen lung se dovedesc o solutie de luminat mult mai ieftina.
+
+Pentru ca lumina lor nu este deloc deranjanta sau obositoare pentru ochi.
+
+Pentru ca nu fluctueaza la variatile de tensiune, atat de obisnuite in casele romanilor..</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="https://www.casebinefacute.ro/blog/materiale/avantaje-usi-lemn-masiv/">
+                <img src="../public/imagini/img6.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="https://www.casebinefacute.ro/blog/materiale/avantaje-usi-lemn-masiv/">4 avantaje ale ușilor din lemn masiv</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Ușile pot fi făcute din PAL, MDF sau PVC, însă cele mai rezistente sunt cele din lemn masiv. În magazinele de specialitate poți găsi astfel de uși sub diferite branduri, stiluri sau culori. Ai nevoie doar de imaginație pentru a alege ușa care să completeze stilul pe care l-ai impus în apartamentul tău.
+
+Ușile din lemn masiv sunt făcut din lemn natural, iar acest lucru denotă că sunt trainice pentru că lemnul în sine este unul dintre cele mai căutate materiale pentru efectuarea diferitelor piese de mobilier. Clădiri sau poduri au fost realizate din lemn pentru că este un material calitativ.
+
+În comparație cu MDF-ul, care este un produs prelucrat dintr-o alăturarea de lemn natural, fibre, rășini etc, lemnul masiv este un element în stare naturală, foarte rezistent în fața șocurilor mecanice. Poți găsi uși de intrare făcute din lemn masiv pentru că asigură o bună izolare fonică și termică.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-5">
+            <div class="custom-pagination">
+              <a href="#">1</a>
+              <span>2</span>
+              <a href="#">3</a>
+              <a href="#">4</a>
+              <a href="#">5</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+   
+      <!-- start #footer -->
+      <footer id="footer" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-6 col-lg-4 col-xl-6">
+                    <div class="box">
+                        <h4 class="font-rubik font-size-20">Despre Shome</h4>
+                        <p class="font-size-14 font-rale text-white-50">Vrem să fim aproape de clienții noștri și să îi ajutăm să-și înfrumusețeze căminul cu costuri minime. Împreună construim ACASĂ... acel ACASĂ unde abia așteptăm să ne întoarcem după serviciu, unde ne dorim confort și liniste... ACASĂ unde ne bucurăm de familie și ne invităm prietenii... Te ajutăm să faci cea mai bună alegere în funcție de nevoia ta și îți venim în întampinare cu prețuri pentru toate bugetele. Zi de zi!</p>
+                        <ul class="list-unstyled social">
+                            <li><a href="https://www.facebook.com/ionutoblu/"><span class="fab fa-facebook-f"></span></a></li>
+                            <li><a href="https://github.com/adyoblu"><span class="fab fa-github"></span></a></li>
+                            <li><a href="https://www.instagram.com/obluadrian/?hl=ro"><span class="fab fa-instagram"></span></a></li>
+                            <li><a href="https://www.linkedin.com/in/oblu-ionu%C8%9B-adrian-7845a682/?originalSubdomain=ro"><span class="fab fa-linkedin"></span></a></li>
+                          </ul>
+                    </div>
+            </div>
+
+            <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2">
+                <h4 class="font-rubik font-size-20">Informații</h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="about.html" class="font-rale font-size-14 text-white-50 pb-1">Despre noi</a>
+                    <a href="contact.html" class="font-rale font-size-14 text-white-50 pb-1">Contact</a>
+                    <a href="livrare.html" class="font-rale font-size-14 text-white-50 pb-1">Informații livrare</a>
+                    <a href="date.html" class="font-rale font-size-14 text-white-50 pb-1">Politică date personale</a>
+                </div>
+            </div>
+
+            <div class="col-sm-9 col-md-6 col-lg-8 col-xl-4">
+                <form class="form-row">
+                    <div class="col">
+                        <div class="footer__widget">
+                        <h6 class="text-white">Alatura-te pentru oferte noi!</h6>
+                        <p class="text-white">Update-uri pe e-mail despre ultimele noastre oferte.</p>
+                    <form action="">
+                        <input id="mail" type="text" placeholder="Enter your mail">
+                        <button type="submit" onclick="sendEmail();" class="site-btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </footer>
+  <!-- !start #footer -->
+
+    </div>
+  </body>
+  
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<!-- Isotope -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<!-- Custom JavaScript -->
+<script language="JavaScript" type="text/javascript" src="../public/scripts/headers.js"></script>
+<script language="JavaScript" type="text/javascript" src="../public/scripts/index.js"></script>
+</html>
+

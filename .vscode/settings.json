@@ -1,3 +1,4 @@
 {
-    "C_Cpp.loggingLevel": "None"
+    "C_Cpp.loggingLevel": "None",
+    "git.ignoreLimitWarning": true
 }

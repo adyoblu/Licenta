@@ -1,29 +1,1335 @@
 {
-  "dogs": [
+  "produse1": [
     {
-      "id": 1,
-      "name": "AFFENPINSCHER",
-      "img": "https://images.dog.ceo/breeds/retriever-golden/n02099601_100.jpg"
+      "name": "Rocktherm vata bazaltica 10 cm 1.8 mp",
+      "pret": 42,
+      "url": "https://cdn.leroymerlin.ro/image/2000/2000/54685/5d91de363b97e_20190930015134.jpg",
+      "descriere": "Vata bazaltica pentru fatada de la Gecsat",
+      "stars": 5
     },
     {
-      "id": 2,
-      "name": "AKITA",
-      "img": "https://images.dog.ceo/breeds/terrier-wheaten/n02098105_1321.jpg"
+      "name": "Impact Adeziv polistiren 25 kg",
+      "pret": 11,
+      "url": "https://cdn.leroymerlin.ro/image/2000/2000/7668/5a5ce7cfbd582_20180115074135.jpeg",
+      "descriere": "Adeziv gri pe baza de lianti hidraulici si agregate selectionate.",
+      "stars": 5
     },
     {
-      "id": 3,
-      "name": "CHIHUAHUA",
-      "img": "https://images.dog.ceo/breeds/entlebucher/n02108000_2464.jpg"
+      "name": "Duraziv AT31 Adeziv si masa de spaclu pentru polistiren 25 kg",
+      "pret": 19,
+      "url": "https://cdn.leroymerlin.ro/image/2000/2000/7602/5a5ce7cf9965b_20180115074135.jpeg",
+      "descriere": "DURAZIV AT 31 PLUS este un adeziv economic destinat lipirii şi şpăcluirii plăcilor de polistiren expandat, în cadrul sistemului de termoizolaţie cu plăci de polistiren, cu fixare mixtă adeziv+dibluri.",
+      "stars": 2
     },
     {
-      "id": 4,
-      "name": "LHASA",
-      "img": "https://images.dog.ceo/breeds/waterdog-spanish/20180723_185559.jpg"
+      "name": "Adeziv Polistiren SikaHome 25 Kg",
+      "pret": 17,
+      "url": "https://cdn.leroymerlin.ro/image/2000/2000/75654/5e1dd6dd296f1_20200114045733.jpg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 0
     },
     {
-      "id": 5,
-      "name": "MINIATURE SCHNAUZER",
-      "img": "https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg"
+      "name": "T1 Term Adeziv si masa de spaclu pentru polistiren 25 kg",
+      "pret": 14,
+      "url": "https://cdn.leroymerlin.ro/image/2000/2000/7659/5a5ce7cfb8898_20180115074135.jpeg",
+      "descriere": "Produsul se utilizeaza ca adeziv pentru lipirea placilor de polistiren expandat pe suporturi minerale si armarea plscilor (masa de spaclu).",
+      "stars": 3
+    },
+    {
+      "name": "Den Braven Adeziv poliuretanic cu pai, pentru polistiren, 825 ml",
+      "pret": 22,
+      "url": "https://cdn.leroymerlin.ro/image/2000/2000/12485/5aa69fd4bb45d_20180312054212.jpg",
+      "descriere": "Produsul poate fi utilizat pentru lipirea si asamblarea foarte eficienta a placilor de polistiren (Polistiren Expandat, Polistiren Expandat Grafitat, Polistiren Extrudat etc.), spuma poliuretanica rigida (Poliuretan/Poliizocianurat) si fibre minerale, pe beton, ipsos si zidarie, precum si pe umplerea rosturilor dintre placile izolatoare.",
+      "stars": 2
+    },
+    {
+      "name": "Den Braven Adeziv poliuretanic pentru polistiren, pentru pistol 870 ml",
+      "pret": 22,
+      "url": "https://cdn.leroymerlin.ro/image/2000/2000/28579/5b90f41d895be_20180906123213.jpg",
+      "descriere": "Adeziv poliuretanic monocomponent, cu expandare redusa si intarire in prezenta umezelii, destinat lipirii placilor termoizolante din polistiren expandat si extrudat EPS si XPS pe fatade, pe suprafete din lemn, caramida, BCA, tencuiala, metal. Dupa intarire are o rezistenta foarte buna si este elastic. Produsul are o structura foarte buna si o aderenta excelenta la aplicatii cuprinse intre +5°C si +35°C. Acest produs este testate din punct de vedere al transferului termic, permeabilitatii la apa si pierderilor de aer. Daca sunt aplicate in mod corespunzator, acesta contribuie la economia de energie in cladiri, concepte cunoscute sub denumirea de case pasive si case neutre din punct de vedere energetic.",
+      "stars": 5
+    },
+    {
+      "name": "Easy Soudabond Adeziv poliuretanic pai 750 ml",
+      "pret": 23,
+      "url": "https://cdn.leroymerlin.ro/image/2000/2000/12486/5aa69fd4bb7aa_20180312054212.jpg",
+      "descriere": "Adezivul Easy Soudabond este un adeziv gata de lucru, autoexpandabil, monocomponent pentru lipirea placilor de izolare termica, a panelurilor, vatei minerale, vatei bazaltice, placilor de gips-carton si a caramizilor usoare din BCA intr-un mod cat mai economic, curat si permanent securizat.",
+      "stars": 2
+    },
+    {
+      "name": "Ceresit CT 84 Adeziv Poliuretanic 850 ml",
+      "pret": 30,
+      "url": "https://cdn.leroymerlin.ro/image/2000/2000/57337/5db037fb3e6ab_20191023022235.jpg",
+      "descriere": "Ceresit CT 84 este utilizat pentru fixarea placilor de polistiren expandat si extrudat. Ceresit CT 84 poate fi utilizat pentru aplicarea placilor de polistiren atat pe fatadele cladirilor noi cat si pe cladirile ce urmeaza a fi reabilitate termic prin termoizolare.",
+      "stars": 5
+    },
+    {
+      "name": "Easy Soudabond Adeziv poliuretanic pentru pistol 750 ml",
+      "pret": 28,
+      "url": "https://cdn.leroymerlin.ro/image/2000/2000/12487/5aa69fd4bbb1b_20180312054212.jpg",
+      "descriere": "Adezivul Easy Soudabond este un adeziv gata de lucru, autoexpandabil, monocomponent pentru lipirea placilor de izolare termica, a panelurilor, vatei minerale, vatei bazaltice, placilor de gips-carton si a caramizilor usoare din BCA intr-un mod cat mai economic, curat si permanent securizat.",
+      "stars": 3
+    },
+    {
+      "name": "Duraziv AT33 Adeziv si masa de spaclu pentru OSB, pentru polistiren extrudat 25 kg",
+      "pret": 30,
+      "url": "https://cdn.leroymerlin.ro/image/2000/2000/7653/5a5ce7cfb572c_20180115074135.jpeg",
+      "descriere": "DURAZIV AT 33 este un adeziv destinat sistemului de termoizolaţie cu: plăci de polistiren și vată minerală. Se poate lipi atât pe pereţi exteriori cât şi pe pereţi interiori, dacă accesul prin exterior este imposibil.",
+      "stars": 4
+    }
+  ],
+  "produse2": [
+    {
+      "name": "Chiuveta bucatarie FRANKE BFG 611-78, 1 cuva, picurator reversibil, compozit granit, avena",
+      "pret": 600,
+      "url": "https://lcdn.altex.ro/media/catalog/product/B/F/BFG-611-78-AVENA_c705888f.jpg",
+      "descriere": "De la stilul traditional la designul modern, fiecare chiuveta Franke este realizata cu o splendida maiestrie. Fiecare detaliu, oricat de mic, este luat in cosiderare, pana si marginea incorporata brevetata, care face ca prepararea si curatarea sa se faca fara efort.",
+      "stars": 4
+    },
+    {
+      "name": "Pachet chiuveta GROHE K300 31563SD0, picurator reversibil, inox satinat + baterie Eurosmart 33281002",
+      "pret": 580,
+      "url": "https://lcdn.altex.ro/media/catalog/product/C/V/CVT31565SD0_3_7af9c41e.jpg",
+      "descriere": "Pachet chiuveta GROHE K300 31563SD0, picurator reversibil, inox satinat + baterie Eurosmart 33281002",
+      "stars": 3
+    },
+    {
+      "name": "Chiuveta bucatarie GROHE K500 31571SD0, 1 cuva, picurator reversibil, otel inoxidabil, inox satinat",
+      "pret": 770,
+      "url": "https://lcdn.altex.ro/media/catalog/product/C/V/CVT31571SD0_2_1a1e8ad9.jpg",
+      "descriere": "Realizata din otel inoxidabil dur, cu finisare sudata pentru o durabilitate superioara, chiuveta K500 ofera un design contemporan sic, cu caracteristici practice. Alegeti intre varianta cu 1 cuva sau cu 1 cuva si 1 semi-cuva (reversibila) cu sistem de scurgere si sistem automat pentru evacuare.",
+      "stars": 4
+    },
+    {
+      "name": "Pachet chiuveta ALVEUS RECORD 30, material compozit + baterie GM 210, negru",
+      "pret": 664,
+      "url": "https://lcdn.altex.ro/media/catalog/product/C/V/CVTRECO30GM210K_5_71a7f330.png",
+      "descriere": "Pachet chiuveta ALVEUS RECORD 30, material compozit + baterie GM 210, negru",
+      "stars": 2
+    },
+    {
+      "name": "Chiuveta bucatarie GROHE K200 31656AT0, 1 cuva, compozit quartz, antracit",
+      "pret": 649,
+      "url": "https://lcdn.altex.ro/media/catalog/product/3/1/31656AT0_3_9a877103.jpg",
+      "descriere": "O optiune versatila, stilata pentru orice bucatarie, chiuvetele GROHE K200 sunt durabile, practice si complet reversibile. Un sistem automat pentru deseuri este inclus pentru confortul sporit al utilizatorului. Adauga la chiuveta ta de bucatarie K200 placa de tocare, alunecoasa, conceputa a se potrivi perfect peste bolul chiuvetei tale",
+      "stars": 4
+    },
+    {
+      "name": "Chiuveta bucatarie ALVEUS VITRO20, 1 cuva, picurator reversibil, inox cu sticla, negru",
+      "pret": 700,
+      "url": "https://lcdn.altex.ro/media/catalog/product/C/V/CVTVITRO20K_b61c1384.jpg",
+      "descriere": "ALVEUS combina chiuvetele de bucatarie, cosurile de gunoi,masinile de gatit, bateriile de bucatarie, cu un personal instruit, un departament cercetare si dezvoltare si o vasta retea de vanzari atat in tara de origine cat si in strainatate pentru a raspunde celor mai exigente nevoi ale clientilor si utilizatorilor de echipamente de bucatarie.",
+      "stars": 3
+    },
+    {
+      "name": "Pachet chiuveta ALVEUS Rondo 10 G11, compozit + baterie GM230, alb",
+      "pret": 630,
+      "url": "https://lcdn.altex.ro/media/catalog/product/C/V/CVTR10G11GM230W_1_73c0736a.jpg",
+      "descriere": "Pachet chiuveta ALVEUS Rondo 10 G11, compozit + baterie GM230, alb",
+      "stars": 4
+    },
+    {
+      "name": "Chiuveta bucatarie PYRAMIS Alea, 1 cuva, picurator reversibil, inox texturat",
+      "pret": 495,
+      "url": "https://lcdn.altex.ro/media/catalog/product/5/2/5201217076702_1.jpg",
+      "descriere": "Chiuvetele Pyramis din inox, formeaza o gama completa, cu peste 200 de modele care acopera toate cerintele in materie de calitate, design si pret. Ele sunt produse conform celor mai exigente standarde, intr-o unitate de productie prevazuta cu tehnologii de ultima generatie. Pe langa calitatea incontestabila a materialului, a usurintei in instalare si a unei garantii de lunga durata, chiuveta din inox Pyramis iti permite o curatare usoara, care asigura un nivel maxim de igiena. Inoxul are proprietati antiseptice, antifungice, anticorozive (de aceea este singurul material acceptat in bucatariile profesionale sau in spitale) si proprietati organoleptice (nu schimba gustul, culoarea sau mirosul alimentelor). Acesta este materialul preferat pentru contactul cu produsele alimentare datorita capacitatii sale de a se autocurata.",
+      "stars": 5
+    },
+    {
+      "name": "Pachet chiuveta ALVEUS Line 80 leinen, picurator dreapta + baterie Karina, inox",
+      "pret": 447,
+      "url": "https://lcdn.altex.ro/resize/media/catalog/product/C/V/2bd48d28d1c32adea0e55139a4e6434a/CVTLIN80KARSTX_dc3d8116.jpg",
+      "descriere": "Numar cuve: 1;Dimensiune: 79 x 50 cm;Culoare: Inox;Tip finisaj: Inox;Tip instalare: Incastrabila;Configuratie: 1 cuva 1 picurator;Adancime cuva: 16 cm;Latime baza: 50 cm;Forma: Dreptunghi;Accesorii incluse: Sifon.",
+      "stars": 3
+    },
+    {
+      "name": "Chiuveta bucatarie TEKA Princess 1 1/2B 1/2D, picurator dreapta, 1 1/2 cuve, inox",
+      "pret": 373,
+      "url": "https://lcdn.altex.ro/media/catalog/product/P/A/PA780P3001_105dc678_ad825af3.png",
+      "descriere": "Chiuveta TEKA Princess 1 1/2B 1/2D dreapta 1 1/2 cuve, inox",
+      "stars": 2
+    },
+    {
+      "name": "Pachet chiuveta PYRAMIS Class Plus Complete, compozit granit + baterie, negru",
+      "pret": 768,
+      "url": "https://lcdn.altex.ro/media/catalog/product/2/0/202000151_1.jpg",
+      "descriere": "Chiuvetele Pyragranite sunt produse din granule de cuart natural (silica), de aproximativ 1mm in diametru, in proportie de 80%, cel mai dur si rezistent component al granitului si un adaos de doar 20% rasini si aditivi care ajuta la aderarea granulelor de cuart si confera suprafetei produsului finit un aspect deosebit din punct de vedere coloristic.",
+      "stars": 5
+    },
+    {
+      "name": "Chiuveta bucatarie PYRAMIS Class Plus, 1 cuva, picurator reversibil, compozit granit, alb",
+      "pret": 600,
+      "url": "https://lcdn.altex.ro/media/catalog/product/5/2/5201217124359_1.jpg",
+      "descriere": "In functie de designul bucatariei poti alege dintr-o paleta larga de culori. Nuantele clasice care mentin efectul tactil si vizual al pietrei naturale, nuantele pale pentru un design discret sau nuantele in ape metalice sofisticate pot innoi oricand bucataria ta. ",
+      "stars": 5
+    }
+  ],
+  "produse3": [
+    {
+      "name": "Aragaz Beko FSE62110DX",
+      "pret": 1238,
+      "url": "https://s12emagst.akamaized.net/products/5275/5274262/images/res_ea26d91800369d3145ad9db68d1bfb6a_full.jpg",
+      "descriere": "4 arzatoare, Mixt, Aprindere electrica, Gatire asistata cu ventilatie, Grill, Booster, 60 cm, Inox",
+      "stars": 3
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "produse4": [
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "produse5": [
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "produse6": [
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "produse7": [
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "produse8": [
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "produse9": [
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "produse10": [
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "produse11": [
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "produse12": [
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "produse13": [
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "produse14": [
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "produse15": [
+    {
+      "name": "Parchet laminat 6 mm sea breeze oak Krono Original White box 8463 clasa 31",
+      "pret": 18,
+      "url": "https://i.dedeman.ro/media/catalog/product/cache/dedeman/image/9df78eab33525d08d6e5fb8d27136e95/p/a/parchet_laminat_4019662_6.jpg",
+      "descriere": "Parchetul laminat sea breeze oak Krono Original White box 8463 are o nuanta deschisa de stejar si un model modern, reusind astfel sa creeze o atmosfera placuta si primitoare. Acesta este realizat din HDF de calitate, are grosimea de 6 mm si se incadreaza in clasa de trafic comercial normal.Datorita sistemului de montare fara adeziv Compact lock, suprafetele raman curate, iar timpul si efortul montarii sau demontarii parchetului se reduce substantial.",
+      "stars": 4
+    },
+    {
+      "name": "Parchet laminat 8 mm black canyon oak Krono Original White box 3351 clasa 31",
+      "pret": 24,
+      "url": "https://i.dedeman.ro/media/catalog/product/cache/dedeman/image/9df78eab33525d08d6e5fb8d27136e95/p/a/parchet_laminat_4018298_5_1.jpg",
+      "descriere": "Parchetul laminat black canyon oak Krono Original White box 3351 are o nuanta inchisa de stejar si un stil rustic, reusind astfel sa creeze o atmosfera placuta si primitoare. Acesta este realizat din HDF de calitate, are grosimea de 8 mm si se incadreaza in clasa de trafic comercial normal (31).Datorita sistemului de montare fara adeziv Twin Clic, suprafetele raman curate, iar timpul si efortul montarii sau demontarii parchetului se reduce substantial.",
+      "stars": 3
+    },
+    {
+      "name": "Parchet laminat 6 mm alb Smart S662 Milas clasa 31",
+      "pret": 20,
+      "url": "https://i.dedeman.ro/media/catalog/product/cache/dedeman/image/9df78eab33525d08d6e5fb8d27136e95/p/a/parchet_laminat_4018922_6.jpg",
+      "descriere": "Parchetul laminat Smart S662 Milas prezinta o nuanta deschisa, ce creeaza o atmosfera placuta si primitoare, avand abilitatea de a transforma o casa intr-un camin.",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "stars": 4
+    }
+  ],
+  "promotii": [
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "pretOLD": 599,
+      "stars": 4
+    },
+    {
+      "name": "Ușă din lemn",
+      "pret": 229,
+      "url": "data:image/jpeg;base64,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",
+      "descriere": "Kitul conţine: o şină din  aluminiu cu înveluş din MDF, un panou decorativ din MDF, 2 roţi, 2 cleme, un ghidaj de podea, 2 capete de protecţie din MDF, 2 opritoare, un panou de susţinere din MDF",
+      "pretOLD": 400,
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "pretOLD": 599,
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "pretOLD": 599,
+      "stars": 4
+    },
+    {
+      "name": "FYRTUR",
+      "pret": 499,
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "descriere": "Stor opac, wireless, cu baterii gri 80x195 cm",
+      "pretOLD": 599,
+      "stars": 4
+    }
+  ],
+  "posts": [
+    {
+      "name": "FYRTUR",
+      "pret": "499",
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "id": 2
     }
   ]
 }
