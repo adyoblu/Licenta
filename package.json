@@ -2,7 +2,7 @@
   "name": "lastshome",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "dependencies": {
     "emailjs-com": "^2.6.3",
     "gulp": "^4.0.2",
