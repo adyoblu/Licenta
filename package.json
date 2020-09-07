@@ -1,0 +1,25 @@
+{
+  "name": "lastshome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "emailjs-com": "^2.6.3",
+    "gulp": "^4.0.2",
+    "gulp-json-server": "0.0.7",
+    "gulp-json-srv": "^1.2.0",
+    "gulp-nodemon": "^2.5.0",
+    "gulp-server-livereload": "^1.9.2",
+    "json-server": "^0.16.1",
+    "query-string": "^6.13.1",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "gulp-file-include": "^2.2.2"
+  },
+  "scripts": {
+    ".": "json-server --watch db.json"
+  },
+  "author": "Oblu Ionut Adrian",
+  "license": "ISC",
+}
