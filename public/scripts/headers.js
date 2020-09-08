@@ -5,7 +5,7 @@ let stylesheets = [
     '../public/stylesheets/style.css'
   ];
   
-  function createStylesheet( href ) {
+function createStylesheet( href ) {
   let link = document.createElement('link');
   link.type = 'text/css';
   link.rel = 'stylesheet'
@@ -13,7 +13,6 @@ let stylesheets = [
   return link;
 }
 
-// an array of stylesheet links 
 const appendStylesheets = stylesheets.map(function (sheet) {
   const createdLink = createStylesheet(sheet);
   return createdLink;

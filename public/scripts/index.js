@@ -200,18 +200,7 @@ function cart(name, pret, url, con, btncart){
           return response.json()
         }
       }).then(function(elements){
-
-    // cartItems.push(item);
-    // let storage = JSON.parse(localStorage.getItem("cart"));
-    // if(storage == null){
-    //     products.push(item);
-    //     localStorage.setItem("cart", JSON.stringify(products));
-    // } else {
-    //     products = JSON.parse(localStorage.getItem("cart"));
-    //     products.push(item);
-    //     localStorage.setItem("cart", JSON.stringify(products));
-    // }
-    // products = JSON.parse(localStorage.getItem("cart"));
+          
     render();
     cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
     animation();
@@ -238,22 +227,8 @@ function cumpar(name, pret, url, con, btncart){
           return response.json()
         }
       }).then(function(elements){
-
-
-    // cartItems.push(item);
-    // let storage = JSON.parse(localStorage.getItem("cart"));
-    // if(storage == null){
-    //     products.push(item);
-    //     localStorage.setItem("cart", JSON.stringify(products));
-    // } else {
-    //     products = JSON.parse(localStorage.getItem("cart"));
-    //     products .push(item);
-    //     localStorage.setItem("cart", JSON.stringify(products));
-    // }
-    // products = JSON.parse(localStorage.getItem("cart"));
     render();
     cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
-    //document.getElementById(btncart).style.display="none";
     getItems();
     })
 }
@@ -262,11 +237,7 @@ function render(){
     if ( document.URL.includes("index.html") )  getPromo();
     else if (document.URL.includes("prod.html")) getElements();
     else if (document.URL.includes("cart.html")) getItems();
-    //localStorage.clear();
-    // if(localStorage.getItem("cart")==null){
 
-    // } else {
-    //     products =  JSON.parse(localStorage.getItem("cart"));
     fetch('http://localhost:3000/posts')
         .then(function (response) {
             response.json().then(function (elements) {
@@ -275,6 +246,4 @@ function render(){
         }
       })
     })
-
-    // }
 };

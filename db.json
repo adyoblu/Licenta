@@ -1324,5 +1324,12 @@
       "stars": 4
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "name": "FYRTUR",
+      "pret": "499",
+      "url": "https://www.ikea.com/ro/ro/images/products/fyrtur-block-out-roller-blind__0595179_PE675959_S5.JPG?f=sg",
+      "id": 1
+    }
+  ]
 }

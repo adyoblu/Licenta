@@ -4,22 +4,33 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "consolidate": "^0.15.1",
+    "ejs": "^3.1.5",
     "emailjs-com": "^2.6.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
     "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
     "gulp-json-server": "0.0.7",
     "gulp-json-srv": "^1.2.0",
     "gulp-nodemon": "^2.5.0",
+    "gulp-open": "^3.0.1",
     "gulp-server-livereload": "^1.9.2",
     "json-server": "^0.16.1",
+    "path": "^0.12.7",
     "query-string": "^6.13.1",
-    "requirejs": "^2.3.6"
+    "requirejs": "^2.3.6",
+    "swig": "^1.4.2"
   },
   "devDependencies": {
     "gulp-file-include": "^2.2.2"
   },
   "scripts": {
     ".": "json-server --watch db.json",
-    "start" : "gulp"
+    "start": "gulp"
   },
   "author": "Oblu Ionut Adrian",
   "license": "ISC"

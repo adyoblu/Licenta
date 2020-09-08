@@ -1,6 +1,6 @@
 //gulp e un task runner si nodemon este un modul pentru a rula fara a iesii din program
 var gulp = require("gulp");
-    nodemon = require('gulp-nodemon');
+    nodemon = require('gulp-nodemon'),
 
 gulp.task('default', function(){
     nodemon({
