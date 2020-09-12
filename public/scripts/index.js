@@ -88,14 +88,27 @@ function getPromo(){
 
 var ma = document.getElementById("mail");
 
+
 function sendEmail() {
+    today = new Date();
+    var h = today.getHours();
+    var min = today.getMinutes();
+    var s = today.getSeconds();
+    var day = today.getDate();
+    var m = today.getMonth() + 1;
+    var y = today.getFullYear();
+    if(day < 10) day = "0" + day;
+    if(m < 10) m = "0" + m;
+    var data =  day + "-" + m + "-" + y;
+
     var templateParams = {
-        to_name: ma.value,
-        from_name: 'oneagheorhe@gmail.com',
-        message_html: 'Please Find out the attached file'
-      };
-    
-      emailjs.send('service_4vctffn', 'template_0ke7', templateParams)
+        "to_name" : ma.value,
+        "from_name" : 'oneagheorhe@gmail.com',
+        "date" : "ziua de: " + data +  ", la ora:" + h + ":" + min + ":" + s + "."
+    };
+      var userId = 'user_Xx2tk9mFk4g14KdTdKzUt';
+
+      emailjs.send('service_4vctffn', 'template_0ke7', templateParams, userId)
         .then(function(response) {
           console.log('SUCCESS!', response.status, response.text);
           location.reload();

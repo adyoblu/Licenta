@@ -1,7 +1,9 @@
 var jsonServer = require('json-server'),
     app = jsonServer.create(),
     router = jsonServer.router('db.json');
-
+    
+var middlewares = jsonServer.defaults();
+var port = process.env.PORT || 3000;
 
 // var cons = require('consolidate'),
 //     path = require('path'),
@@ -9,13 +11,12 @@ var jsonServer = require('json-server'),
 //     express = require('express'),
 //     flash = require('connect-flash');
 
-var middlewares = jsonServer.defaults({static: '/public'});
+
 
 // app.get('/', function(req,res,next){ 
 //     res.render('index.html');
 // });
 
-var port = process.env.PORT || 3000;
 
 
 // app.use(require("express-session")({
