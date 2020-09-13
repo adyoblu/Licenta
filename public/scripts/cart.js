@@ -179,7 +179,7 @@ function appendItems(elements){
             th10.scope = "col";
             let th12 = document.createElement("th");
             th12.scope = "col";
-
+            cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
             th12.innerHTML=`<button id="btnBuy" onclick="buy()" class="btn btn-success">Cumpara</button>`;
             tr3.appendChild(th9);
             tr3.appendChild(th8);
@@ -222,6 +222,7 @@ function buy(){
             });
     })
     deleteAll();
+
 }
 
 function deleteAll(){
@@ -292,14 +293,16 @@ function render(){
 
     // } else {
     //     products =  JSON.parse(localStorage.getItem("cart"));
-    fetch('http://localhost:3000/posts')
-        .then(function (response) {
-            response.json().then(function (elements) {
-        for(let i = 0; i < elements.length; i++){
-        cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
-        }
-      })
-    })
+
+    
+    // fetch('http://localhost:3000/posts')
+    //     .then(function (response) {
+    //         response.json().then(function (elements) {
+    //     for(let i = 0; i < elements.length; i++){
+    //     cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
+    //     }
+    //   })
+    // })
 
     // }
 };

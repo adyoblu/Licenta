@@ -7,6 +7,15 @@ $(document).ready(function(){
     ceva.carousel({
         interval: 1000
     }); 
+    cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `0`+ `<b class="red">]</b>`;
+    fetch('http://localhost:3000/posts')
+        .then(function (response) {
+            response.json().then(function (elements) {
+        for(let i = 0; i < elements.length; i++){
+        cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
+        }
+      })
+    })
 });
 
 $(function () {
@@ -42,7 +51,7 @@ function getElements() {
             response.json().then(function (elements) {
                 for (let i = 0; i < elements.length; i++) {
                     if(v1 == 15) elements[i].unitate = "metru^2";
-                    else elements[i].unitate = "Unitate"
+                    else elements[i].unitate = "Unitate";
                     list.innerHTML += `<div class="col-lg-4">
                                         <div class="grid-item Apple border iamcenter">
                                         <div class="item py-2 iamcenter" style="width: 200px;">
@@ -213,8 +222,16 @@ function cart(name, pret, url, con, btncart){
           return response.json()
         }
       }).then(function(elements){
-          
-    render();
+
+        fetch('http://localhost:3000/posts')
+        .then(function (response) {
+            response.json().then(function (elements) {
+        for(let i = 0; i < elements.length; i++){
+        cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
+        }
+      })
+    })
+    
     cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
     animation();
 
@@ -240,7 +257,16 @@ function cumpar(name, pret, url, con, btncart){
           return response.json()
         }
       }).then(function(elements){
-    render();
+
+        fetch('http://localhost:3000/posts')
+        .then(function (response) {
+            response.json().then(function (elements) {
+        for(let i = 0; i < elements.length; i++){
+        cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
+        }
+      })
+    })
+
     cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
     getItems();
     })
@@ -251,12 +277,4 @@ function render(){
     else if (document.URL.includes("prod.html")) getElements();
     else if (document.URL.includes("cart.html")) getItems();
 
-    fetch('http://localhost:3000/posts')
-        .then(function (response) {
-            response.json().then(function (elements) {
-        for(let i = 0; i < elements.length; i++){
-        cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
-        }
-      })
-    })
 };
