@@ -8,14 +8,6 @@ $(document).ready(function(){
         interval: 1000
     }); 
     cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `0`+ `<b class="red">]</b>`;
-    fetch('http://localhost:3000/posts')
-        .then(function (response) {
-            response.json().then(function (elements) {
-        for(let i = 0; i < elements.length; i++){
-        cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
-        }
-      })
-    })
 });
 
 $(function () {
@@ -50,7 +42,7 @@ function getElements() {
         .then(function (response) {
             response.json().then(function (elements) {
                 for (let i = 0; i < elements.length; i++) {
-                    if(v1 == 15) elements[i].unitate = "metru^2";
+                    if(v1 == 15 || v1 == 16 || v1 == 17) elements[i].unitate = "metru^2";
                     else elements[i].unitate = "Unitate";
                     list.innerHTML += `<div class="col-lg-4">
                                         <div class="grid-item Apple border iamcenter">
@@ -159,6 +151,9 @@ function HTMLpromo(name, pret, url, descriere, pretOLD){
         descriere: descriere,
         pretOLD: pretOLD
     }
+    // <button type="button" onclick="cumpar('${item.name}','${item.pret}','${item.url}','0','${btn}')" class="btn btn-sm btn-outline-secondary">
+    //             <a style="color:inherit;" href="cart.html">Cumpără</a>
+    //         </button>
     return `
         <div class="row featurette">
         <div class="col-md-7">
@@ -166,9 +161,6 @@ function HTMLpromo(name, pret, url, descriere, pretOLD){
             <p class="lead">${item.descriere}</p>
             <h3 style="color: red; font-weight: bold; text-decoration: line-through;">${item.pretOLD}.00 RON</h3>
             <h3 style="color: red; font-weight: bold;">${item.pret}.00 RON</h3>
-            <button type="button" onclick="cumpar('${item.name}','${item.pret}','${item.url}','0','${btn}')" class="btn btn-sm btn-outline-secondary">
-                <a style="color:inherit;" href="cart.html">Cumpără</a>
-            </button>
             <button id="${btn}" type="button" onclick="cart('${item.name}','${item.pret}','${item.url}','0','${btn}')" class="btn btn-sm btn-outline-secondary">Adaugă în coș</button>
     </div>
     <div class="col-md-5">
@@ -239,26 +231,35 @@ function cart(name, pret, url, con, btncart){
 }
 
 
-function cumpar(name, pret, url, con, btncart){
-    var item={
-        name: name,
-        pret: pret,
-        url: url
-    }
+// function cumpar(name, pret, url, con, btncart){
+//     var item={
+//         name: name,
+//         pret: pret,
+//         url: url
+//     }
 
-    fetch('http://localhost:3000/posts', {
-        method: 'post',
-        headers: {
-            "Content-type": "application/json"
-        },
-        body: JSON.stringify(item)
-    }).then(response => {
-        if (response.ok) {
-          return response.json()
-        }
-      }).then(function(elements){
+//     fetch('http://localhost:3000/posts', {
+//         method: 'post',
+//         headers: {
+//             "Content-type": "application/json"
+//         },
+//         body: JSON.stringify(item)
+//     }).then(response => {
+//         if (response.ok) {
+//           return response.json()
+//         }
+//       }).then(function(elements){  
+//         render();
+//     cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
+//     getItems();
+//     })
+// }
 
-        fetch('http://localhost:3000/posts')
+function render(){
+    if ( document.URL.includes("index.html") )  getPromo();
+    else if (document.URL.includes("prod.html")) getElements();
+    else if (document.URL.includes("cart.html")) getItems();
+    fetch('http://localhost:3000/posts')
         .then(function (response) {
             response.json().then(function (elements) {
         for(let i = 0; i < elements.length; i++){
@@ -266,15 +267,4 @@ function cumpar(name, pret, url, con, btncart){
         }
       })
     })
-
-    cart_n.innerHTML = `<style>.red{color: red;}</style><b class="red">[</b>` + `${elements.length}`+ `<b class="red">]</b>`;
-    getItems();
-    })
-}
-
-function render(){
-    if ( document.URL.includes("index.html") )  getPromo();
-    else if (document.URL.includes("prod.html")) getElements();
-    else if (document.URL.includes("cart.html")) getItems();
-
 };
