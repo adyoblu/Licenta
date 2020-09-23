@@ -43,12 +43,18 @@ function getElements() {
             response.json().then(function (elements) {
                 for (let i = 0; i < elements.length; i++) {
                     if(v1 == 15 || v1 == 16 || v1 == 17) elements[i].unitate = "metru^2";
+                    else if(v1 == 23) elements[i].unitate = "kilogram";
+                    else if(v1 == 24) elements[i].unitate = "pachet";
+                    else if(v1 == 27) elements[i].unitate = "metru";
                     else elements[i].unitate = "Unitate";
                     list.innerHTML += `<div class="col-lg-4">
                                         <div class="grid-item Apple border iamcenter">
                                         <div class="item py-2 iamcenter" style="width: 200px;">
-                                        <div class="product font-rale">
-                                        <a href="#"><img src="${elements[i].url}" alt="product1" class="img-fluid"></a>
+                                        <div class="product font-rale example">
+                                        <a href="#"><img src="${elements[i].url}" alt="product1" class="img-fluid"><div class="content">
+                                        <div class="text">${elements[i].descriere}</div>
+                                        </div>
+                                        </a>
                                         <div class="text-center">
                                         <h6>${elements[i].name}</h6>
                                         <div class="rating text-warning font-size-12">
